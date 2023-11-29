@@ -2,9 +2,11 @@ package selenium_course1;
 
 import java.util.Scanner;
 
-public class Month {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class Month {
+@Test
+	public void main() {
 		Scanner cde = new Scanner(System.in);
 		System.out.println("Please enter month value from 1 to 12, to find number of days in a month");
 		int mon = cde.nextInt();
