@@ -1,10 +1,6 @@
-package selenium_course1;
-
-public class Object {
-
-	public static void main(String[] args) {
+package Object;
 		
-		class Human{
+		public class Human{
 			//characteristics:- name,age,height,weight
 			// Behaviour:- to speak()
 			
@@ -12,7 +8,7 @@ public class Object {
 			int age;
 			double height;
 			double weight;
-			String country;
+			static String country;
 			
 			void speak(String content) {
 			}
@@ -178,7 +174,10 @@ public class Object {
 					
 					
 					
-					void wear(String content) {
+					void wear(String content) {						
+						
+						
+						
 				}
 	
 					}
@@ -200,7 +199,6 @@ public class Object {
 					//characteristics:- size,shape,color
 					// Behaviour:- toWatch()
 					
-
 					double size;
 					String shape;
 					String color;
@@ -208,8 +206,9 @@ public class Object {
 					
 					
 					void toWatch(String content) {
-}
+						System.out.println();
 
 }
+				
 	}
-}
+//}
