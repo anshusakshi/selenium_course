@@ -6,7 +6,7 @@ public class NonParametrizedMethod {
 	}
 
 	
-	void name(){
+	static void name(){
 		System.out.println("Sakshi Raj");
 	}
 }
