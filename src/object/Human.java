@@ -43,7 +43,7 @@ package object;
 	}
 }
 			class Fan{
-				//characteristics:- shape,bladeCount
+				//characteristics:- shape,bladeCount.
 				// Behaviour:- air()
 				
 				String shape;
