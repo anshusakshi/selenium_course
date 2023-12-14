@@ -1,4 +1,4 @@
-package Object;
+package object;
 		
 		public class Human{
 			//characteristics:- name,age,height,weight
@@ -38,7 +38,7 @@ package Object;
 				double weight;
 				
 				
-				void tosleep(String content) {
+				void toSleep(String content) {
 			
 	}
 }
@@ -61,7 +61,7 @@ package Object;
 				String shape;
 				double height;
 				int page;				
-				void towrite(String content) {
+				void toWrite(String content) {
 					
 					
 				}
@@ -77,7 +77,7 @@ package Object;
 				int tableleg;
 				
 				
-				void tokeep(String content) {
+				void toKeep(String content) {
 			
 	}
 }
@@ -121,7 +121,7 @@ package Object;
 					int seat;
 					
 					
-					void toseat(String content) {
+					void toSeat(String content) {
 						
 					
 	}
@@ -136,7 +136,7 @@ package Object;
 					
 					
 					
-					void tolock(String content) {		
+					void toLock(String content) {		
 	}
 }
 				class knife{
@@ -146,7 +146,7 @@ package Object;
 					String color;	
 					double size;
 					
-					void tocut(String content) {
+					void toCut(String content) {
 }
 	
 }
@@ -192,7 +192,7 @@ package Object;
 					
 					
 					
-					void towear(String content) {
+					void toWear(String content) {
 	}
 	}
 				class Tv{
