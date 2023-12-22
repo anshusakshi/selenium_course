@@ -1,6 +1,6 @@
 package selenium_course1;
 
-public class fibonacci {
+public class Fibonacci {
 
 	public static void main(String[] args) {
 		int Count=10,V1=0,V2=1,V3;
