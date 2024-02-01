@@ -9,5 +9,7 @@ public class CommentDemo {
 	static void commentMethod(int i,int j) {
 	}
 
-
+void commentMethod2(int i,int j) {
+	return;
+}
 }
