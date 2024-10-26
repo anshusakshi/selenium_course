@@ -1,0 +1,15 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        String[] original = {"S", "A", "k", "S", "H", "I"};
+        String[] reverse = new String[original.length]; // Initialize reverse array with the same length
+
+        for (int i = 0; i < original.length; i++) {
+            reverse[i] = original[original.length - 1 - i]; // Fill reverse array from end to start
+        }
+
+        // Print reversed array
+        for (String s : reverse) {
+            System.out.print(s);
+        }
+    }
+}
